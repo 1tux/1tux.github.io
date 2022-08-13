@@ -6,7 +6,7 @@
 name: MentalLeap
 
 # Short bio or description (displayed in the header)
-description: "Reverse Engineering Intelligence: AI, Neuroscience, Hacking"
+description: "Reverse Engineering Intelligence; AI, Neuroscience, Hacking"
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/1tux/1tux.github.io/master/images/mental_leap_logo.png
@@ -50,10 +50,10 @@ url: http://1tux.github.io
 baseurl: ""
 
 # supporting Google Analytics 4
-# remote_theme: jekyll/minima
+remote_theme: jekyll/minima
 
 # plugins: 
-# jekyll-remote-theme
+jekyll-remote-theme
 
 #
 # !! You don't need to change any of the configuration flags below !!
