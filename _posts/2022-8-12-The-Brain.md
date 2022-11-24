@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 'The Brain: A reductionist approach'
+title: 'The brain: A reductionist approach'
 published: true
 ---
-Scientists study 'the brain' (rather than brains), but there is no object in the universe that can be considered the brain. My brain differs from yours, rodents' brains, and worms' brains, yet they are all studied under the same scientific effort: _understanding the brain_.
+Scientists study "the brain" (rather than brains), but there is no object in the universe that can be considered the brain. My brain differs from yours, rodents' brains, and worms' brains, yet they are all studied under the same scientific effort: _understanding the brain_.
 
 "The brain" refers to an abstract idea, a profound assumption that states that all brains have some core principles in common. Neuroscience aims to investigate these principles.
 Moreover, this implies a reductionist approach: Studies involving rodents or even worms might provide insight into human brain function.   
@@ -17,7 +17,7 @@ In my opinion, Eric M Kandel's work on Aplysia illustrates the reductionist appr
 				
 Using this strange-looking animal, and its simple nervous system, he discovered one of neuroscience's most fundamental mechanisms: neuroplasticity. In his explorations of various animals, Kandel discovered that the Aplysia displayed memory-based behavior. As a result, he began researching the biological mechanisms responsible for memory. Over time, it was realized that this mechanism is found in every animal species on earth.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rPtxuQnpB9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/rPtxuQnpB9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 The first evidence was found by taking an enormous leap of faith when it was first discovered, even though this approach looks trivial today.					
 
