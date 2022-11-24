@@ -12,11 +12,12 @@ Considering how much more functionally advanced the human brain seems than any o
 
 In my opinion, Eric M Kandel's work on Aplysia illustrates the reductionist approach perfectly.
 
-![Eric Kandel](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Eric_Kandel_01.JPG/1200px-Eric_Kandel_01.JPG)
-![Aplysia](https://upload.wikimedia.org/wikipedia/commons/e/ef/Aplysia_californica.jpg)
+![Eric Kandel](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Eric_Kandel_01.JPG/1200px-Eric_Kandel_01.JPG){: width="240px"; text-align: center;}
+![Aplysia](https://upload.wikimedia.org/wikipedia/commons/e/ef/Aplysia_californica.jpg){: width="240px"; text-align: center;}
 
 				
-Using this strange-looking animal, and its simple nervous system, he discovered one of neuroscience's most fundamental mechanisms: neuroplasticity. In his explorations of various animals, Kandel discovered that the Aplysia displayed memory-based behavior. As a result, he began researching the biological mechanisms responsible for memory. Over time, it was realized that this mechanism is found in every animal species on earth. [Memories are Made of This. Eric Kandel (2008)](https://www.youtube.com/watch?v=rPtxuQnpB9A)
+Using this strange-looking animal, and its simple nervous system, he discovered one of neuroscience's most fundamental mechanisms: neuroplasticity. In his explorations of various animals, Kandel discovered that the Aplysia displayed memory-based behavior. As a result, he began researching the biological mechanisms responsible for memory. Over time, it was realized that this mechanism is found in every animal species on earth.
+[Watch an amazing lecture by Eric Kandel: Memories are Made of This](https://www.youtube.com/watch?v=rPtxuQnpB9A){text-align: center;}
 
 The first evidence was found by taking an enormous leap of faith when it was first discovered, even though this approach looks trivial today.					
 
