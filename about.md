@@ -5,7 +5,7 @@ permalink: /about/
 published: true
 ---
 
-Our mission is to create a safer path to Artificial General Intelligence.
+Our mission is to create a safer path toward Artificial General Intelligence.
 
 ### Who we are
 We are a team of AI researchers, cybersecurity experts, and neuroscientists uncovering the mechanisms of deep neural networks.
