@@ -5,7 +5,7 @@ published: true
 ---
 The idea that animals share similar traits because they evolved from a common ancestor is logical, but there are many contradictory examples.
 
-Taking wings as an example of bats, keas and bees:
+Taking wings as an example of bats, birds and bees:
 
 <center>
 <img src="https://news.berkeley.edu/wp-content/uploads/2021/07/BatFeature_BN-1.jpg" alt="Bat [Mammal]" width=200px>
