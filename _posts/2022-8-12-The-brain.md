@@ -5,8 +5,8 @@ published: true
 ---
 Scientists study "the brain" (rather than brains), but there is no object in the universe that can be considered the brain. My brain differs from yours, rodents' brains, and worms' brains, yet they are all studied under the same scientific effort: _understanding the brain_.
 
-"The brain" refers to an abstract idea, a profound assumption that states that all brains have some core principles in common. Neuroscience aims to investigate these principles.
-Moreover, this implies a reductionist approach: Studies involving rodents or even worms might provide insight into human brain function.   
+"The brain" refers to an abstract idea, a profound assumption that states that _all brains have some core principles in common_. Neuroscience aims to investigate these principles.
+Moreover, this implies a reductionist approach: studies involving rodents or even worms might provide insight into human brain function.   
 
 Considering how much more functionally advanced the human brain seems than any other creature, it was considered wild speculation at the time. The origins of this type of criticism can be traced back to Claud Bernard (the father of the scientific method in medicine). He believed that all living creatures were bound by the same laws of inanimate matter.
 
