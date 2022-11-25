@@ -5,14 +5,10 @@ permalink: /about/
 published: true
 ---
 
-We are a team of neuroscientists, AI experts and hackers working on mechanistic interpretability of deep neural networks. 
+### Who we are
+We are a team of AI researchers, cybersecurity experts, and neuroscientists uncovering the mechanisms underlying deep neural networks. Our mission is to create a safer path to Artificial General Intelligence.
 
-Our mission is finding a safer path to genral purpose AI.
-
-### More Information
-
-Our research agenda and projects are presented here from first principles.
-
-### Contact us
+### The Blog
+The purpose of this blog is to share our research agenda and progress from first princinples.
 
 [email@domain.com](mailto:email@domain.com)
