@@ -2,14 +2,17 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
-Some information about you!
+We are a team of neuroscientists, AI experts and hackers working on mechanistic interpretability of deep neural networks. 
+
+Our mission is finding a safer path to genral purpose AI.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Our research agenda and projects are presented here from first principles.
 
-### Contact me
+### Contact us
 
 [email@domain.com](mailto:email@domain.com)
