@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'The brain: an abstract approach'
+title: 'The brain: An abstract approach'
 published: true
 ---
 
