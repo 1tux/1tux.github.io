@@ -7,7 +7,7 @@ published: true
 #### Introduction:
 Scientists are often depicted as researchers with magnifying glasses. A prism would be a much more relevant tool, in my opinion. As a complex system, the brain can be described on many different levels: electron movement, chemical reactions, protein functionality, and cell activity.
 
-<center><img src="https://cdn.britannica.com/78/149178-050-F2421B64/light-prism-color-angle-colors-wavelength-wavelengths.jpg" alt="prism"><img src="https://i.pinimg.com/474x/77/13/ab/7713ab33923095c4304cf42e3c7e1d9e.jpg" alt="scientist"></center>
+<center><img src="https://cdn.britannica.com/78/149178-050-F2421B64/light-prism-color-angle-colors-wavelength-wavelengths.jpg" alt="prism" height=150px><img src="https://i.pinimg.com/474x/77/13/ab/7713ab33923095c4304cf42e3c7e1d9e.jpg" alt="scientist" height=150px></center>
 
 #### Definitions and motivation
 The abstraction layer is the layer of a system that provides a simplified view of the underlying complexity. Software reverse engineering is a subdiscipline of software engineering. It strives to provide support for the comprehension of software systems by creating suitable representations of the system in another form or higher level of abstraction. When studying a complex multi-layer object such as the brain it is crucial not to confuse different layers of description. If we use too high a level, we might be left with a set of undefined concepts like feelings. These concepts might be able to reason about but not quantify. Using too low a level, face complexity that we might be able to measure but not reason about.
