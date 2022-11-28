@@ -17,7 +17,7 @@ In my opinion, Eric R. Kandel's work on Aplysia illustrates the reductionist app
 				
 Using this strange-looking animal, and its simple nervous system, he discovered one of neuroscience's most fundamental mechanisms: neuroplasticity. In his explorations of various animals, Kandel discovered that the Aplysia displayed memory-based behavior. As a result, he began researching the biological mechanisms responsible for memory. Over time, it was realized that this mechanism is found in every animal species on earth.
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/rPtxuQnpB9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/oULR_TjnLxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 The first evidence was found by taking an enormous leap of faith when it was first discovered, even though this approach looks trivial today.					
 
