@@ -12,5 +12,3 @@ We are a team of AI researchers, cybersecurity experts, and neuroscientists unco
 
 ### The Blog
 The purpose of this blog is to share our research agenda and progress, from first principles to practice.
-
-[email@domain.com](mailto:email@domain.com)
