@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Reverse engineering the brain: an abstract approach'
+title: 'The brain: an abstract approach'
 published: true
 ---
 
