@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Computation: Nature's foundation'
+title: 'Computation: Nature’s foundation'
 published: true
 ---
 
