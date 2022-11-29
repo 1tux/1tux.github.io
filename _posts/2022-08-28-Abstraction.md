@@ -27,7 +27,7 @@ The majority of neuroscientists today approach their research from a biological 
 Could we understand biological computations without biology?
 It might seem that biology is crucial for understanding how information processing in the brain works. An analogy that is used often is of a cloud, whose properties are derived from the electrical/chemical properties of each water drop. By combining these drops, some new properties emerge. A single drop of water must be studied closely in order to understand what emerges and how it occurs.
 
-In contrast, this analogy is similar to a magnifying glass which only explores what is visible and is incompatible with what we know about computation. Computer science teaches us that algorithms are completely separate from implementations. In the next post we will further discuss computation…
+In contrast, this analogy is similar to a magnifying glass which only explores what is visible and is incompatible with what we know about computation. Computer science teaches us that algorithms are completely separate from implementations. The next post will discuss computation in more detail...
 
 > The selection of the appropriate model system for a specific problem is one of the greatest strategic decisions one makes within biology - Eric R. Kandel
 
