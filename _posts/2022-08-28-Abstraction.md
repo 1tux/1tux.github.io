@@ -29,8 +29,6 @@ It might seem that biology is crucial for understanding how information processi
 
 In contrast, this analogy is similar to a magnifying glass which only explores what is visible and is incompatible with what we know about computation. Computer science teaches us that algorithms are completely separate from implementations. In the next post we will further discuss computation…
 
-> The selection of the appropriate model system for a specific problem is one of the greatest strategic decisions one makes within biology - Eric R. Kandel
-
 ### Epilogue
 Dougles Hofstadter (Godel, Escher, Bach author) makes a similar argument against the biological monopoly over brain studies:
 
