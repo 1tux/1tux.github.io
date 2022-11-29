@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Computation: Nature’s foundation'
+title: 'Computation: Beyond artificial machines'
 published: true
 ---
 
