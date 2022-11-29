@@ -8,19 +8,18 @@ Scientists are often depicted as researchers with magnifying glasses. A prism wo
 
 <center><img src="https://cdn.britannica.com/78/149178-050-F2421B64/light-prism-color-angle-colors-wavelength-wavelengths.jpg" alt="prism" height=150px><img src="https://i.pinimg.com/474x/77/13/ab/7713ab33923095c4304cf42e3c7e1d9e.jpg" alt="scientist" height=150px></center>
 
-#### Definitions and motivation
+### Definitions and motivation
 The abstraction layer is the layer of a system that provides a simplified view of the underlying complexity. Understanding abstraction is as the core of the hacker mindset. Software reverse engineering is a subdiscipline of software engineering. It strives to provide support for the comprehension of software systems by creating suitable representations of the system in another form or higher level of abstraction. When studying a complex multi-layer object such as the brain it is crucial not to confuse different layers of description. If we use too high a level, we might be left with a set of undefined concepts like feelings, that are simple to reason about but not quantify. Using too low a level, like the activity of a each and every single cell will introduce  complexity that we might be able to measure but not reason about.
 
-#### The brain's abstraction layers
+### The brain's abstraction layers
 Only the brain has its own research discipline. This is due to its ability to process information, identify patterns and causal relations, guide complex behavior, produce thinking, creativity and consciousness. It's possible to break the brain down into layers: physics, chemistry, biology, and psychology. What would be the right abstraction layer to focus on? Something is missing! A hint would be that computation is at the heart of the abilities mentioned above.
 
 ### A note on computation
-I will elaborate on computation more in the next post. For now it is important to define it:
+Without spoiling the next post on computation, a brief introduction is neccessary:
 > Computation is the transformation of sequences of symbols according to precise rules. - Konrad Hinsen, What is computation?
 
-and to state the it is clear that the brain is involved in computation, like any machine it takes input, process it, stores memory and  
-This defintion might be superising to many, as almost anything in the universe can be describe in that manner, and it would seem as this defintion is to general to capture something meaningful.
-Nevertheless, the success of computer science is the ability to 
+- It might seem suprising that this defintion has nothing to do with the specific of a computer, and that it is that general. The strength of computer-science is the ability to study and reason about such general framework.
+- It is also clear and agreed upon that the brain is involved in computation, like any machine it encodes, stores and processes information.
 
 ### The biological lens and computation
 The majority of neuroscientists today approach their research from a biological perspective only or might only acknowledge the visible aspects of the brain. They seek to understand "how neural activity leads to behavior?", or "what is the neural basis of consciousness?" by trying to skip the computational layer. I find these questions puzzling, since they are similar to asking "how subatomic particles led to the French Revolution" or "how each bit in RAM relates to software GUI". It would make more sense to split each question in two: how biology is able to implement a computational machine, and than later how this machine is able to guide behavior or give rise to consciousness.
@@ -28,11 +27,11 @@ The majority of neuroscientists today approach their research from a biological 
 Could we understand biological computations without biology?
 It might seem that biology is crucial for understanding how information processing in the brain works. An analogy that is used often is of a cloud, whose properties are derived from the electrical/chemical properties of each water drop. By combining these drops, some new properties emerge. A single drop of water must be studied closely in order to understand what emerges and how it occurs.
 
-In contrast, this analogy is similar to a magnifying glass which only explores what is visible and is incompatible with what we know about computation. Computer science teaches us that algorithms are completely separate from implementations. In the next post…
+In contrast, this analogy is similar to a magnifying glass which only explores what is visible and is incompatible with what we know about computation. Computer science teaches us that algorithms are completely separate from implementations. In the next post we will further discuss computation…
 
 > The selection of the appropriate model system for a specific problem is one of the greatest strategic decisions one makes within biology - Eric R. Kandel
 
-#### Epilogue
+### Epilogue
 Dougles Hofstadter (Godel, Escher, Bach author) makes a similar argument against the biological monopoly over brain studies:
 
 "Analogously, a brain is a thinking machine, and if we’re interested in understanding what thinking is, we don’t want to focus on the trees (or their leaves!) at the expense of the forest. The big picture will become clear only when we focus on the brain’s large-scale architecture, rather than doing ever more fine-grained analyses of its building blocks." ("I am a Strange Loop", Douglas Hofstader) 
