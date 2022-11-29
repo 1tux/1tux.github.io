@@ -24,7 +24,7 @@ In contrast, this analogy is similar to a magnifying glass which only explores w
 > The selection of the appropriate model system for a specific problem is one of the greatest strategic decisions one makes within biology - Eric R. Kandel
 
 #### Epilogue
-A similar rant against the biological monopoly of the brain is given by Dougles Hofstadter (Godel, Escher, Bach author).
+Dougles Hofstadter (Godel, Escher, Bach author) makes a similar argument against the biological monopoly over brain studies:
 
 "Analogously, a brain is a thinking machine, and if we’re interested in understanding what thinking is, we don’t want to focus on the trees (or their leaves!) at the expense of the forest. The big picture will become clear only when we focus on the brain’s large-scale architecture, rather than doing ever more fine-grained analyses of its building blocks." ("I am a Strange Loop", Douglas Hofstader) 
 
