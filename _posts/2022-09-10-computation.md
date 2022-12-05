@@ -6,7 +6,7 @@ published: true
 The idea of computation is probably the single most important idea that emerged in the past century. Of course it has been brought us all the computer technology we have today and so on. But there’s actually a lot more to computation than that. It’s a very deep, very powerful, very fundamental idea whose effects we’ve only just begin to see.
 
 The concepts presented in this post are beautifully described in Hofstader's books:
-<center> <img src="https://m.media-amazon.com/images/I/41K3w2JFP1L._AC_SY780_.jpg" height=150px alt="Godel Escher Bach"> <img src="https://m.media-amazon.com/images/I/515BFnlnNML._AC_SY780_.jpg" alt="I am a strange loop" height="150px">
+<center> <img src="https://m.media-amazon.com/images/I/41K3w2JFP1L._AC_SY780_.jpg" height=250px alt="Godel Escher Bach"> <img src="https://m.media-amazon.com/images/I/515BFnlnNML._AC_SY780_.jpg" alt="I am a strange loop" height="250px"></center>
 
 Computation is generally described as the process of applying simple, local rules repeatedly to an environment. For example, weather, proteins in a cell, epidemics, fire, anthills, and so on. This definition seems too general and abstract to be useful. Surprisingly, Turing Machines fully capture this idea.
 
