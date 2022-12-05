@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Loosley related: On neural networks'
+title: 'Loosely related: On neural networks'
 published: true
 ---
 
