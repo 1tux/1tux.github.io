@@ -19,7 +19,7 @@ A simplified evolutionary algorithm could be implemented to solve Sudoku quickly
 In some initial game states, there is only one solution. Our algorithm will locate it, but it will be completely independent of the optimization process. The optimization process described above is a sophisticated general purpose method for searching for solutions. The solution is determined by the game's constraints (initial game states) and the Sudoku rules. Other initial settings with many solutions will probably have many shared values that were determined by the problem constraints and the rules of Sudoku.
 
 As an example let's have a look on this almost solved board:
-<center><img src="https://1tux.github.io/images/sudoku_multiple_solutions.jpeg" alt="sudoku with multiple solutions"></center>
+<center><img src="https://mentaleap.ai/images/sudoku_multiple_solutions.jpeg" alt="sudoku with multiple solutions"></center>
 
 It is clear this Soduko has multiple solutions, however all of them will include the 9,2,6,3,7 values at very specific places in the top left box.
 
