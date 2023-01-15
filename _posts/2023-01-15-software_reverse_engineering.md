@@ -4,7 +4,7 @@ title: Software Reverse Engineering and Mechanistic Interpretability
 published: true
 ---
 
-I had an interesting talk with Neel Nanda ([www.neelnanda.io](www.neelnanda.io)), a well known mechanistic interpretability researcher working at Anthropic, independently and soon for DeepMind. On our chat he interviewed me on paralles between software reverse engineering to MI which is the study of reverse engineering neural networks.
+I had an interesting talk with Neel Nanda ([https://www.neelnanda.io](www.neelnanda.io)), a well known mechanistic interpretability researcher working at Anthropic, independently and soon for DeepMind. On our chat he interviewed me on paralles between software reverse engineering to MI which is the study of reverse engineering neural networks.
 
 In our talk I mentioned some of my practical tools to research in general; mangaing three modes of operation:
 1. Diverging - using mindmaps.
