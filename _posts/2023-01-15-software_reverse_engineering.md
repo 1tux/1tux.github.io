@@ -1,7 +1,8 @@
 ---
+layout: post
+title: 'Analogies between Software Reverse Engineering and Mechanistic Interpretability'
 published: true
 ---
-## Analogies between Software Reverse Engineering and Mechanistic Interpretability
 
 I had an interesting talk with Neel Nanda (www.neelnanda.io), a well known mechanistic interpretability researcher working at Anthropic, independently and soon for DeepMind. On our chat he interviewed me on paralles between software reverse engineering to MI which is the study of reverse engineering neural networks.
 
