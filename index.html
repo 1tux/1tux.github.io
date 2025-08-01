@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MentaLeap | Coming Soon</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <!-- Google Fonts - Dancing Script for the entire title -->
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
-  <!-- Google Fonts - Inter for other text elements -->
+  <!-- Google Fonts - Roboto with thin weight -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+  <!-- Google Fonts - Inter for other text elements (if still desired, otherwise can be removed) -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
@@ -21,31 +21,26 @@
       -webkit-text-fill-color: transparent;
       background-clip: text;
       color: transparent; /* Fallback for browsers that don't support text fill color */
-      font-family: 'Dancing Script', cursive; /* Changed font of entire title to Dancing Script */
-      // font-weight: 700; /* Ensure it's bold for better readability */
+      font-family: 'Roboto', sans-serif; /* Changed font of entire title to Roboto */
+      font-weight: 50; /* Set to thin weight */
+      font-stretch: condensed;
     }
-    /* Highlight for the 'l' using text-shadow, less shiny and gold-toned */
+    /* Highlight for the 'l' using text-shadow, less shiny and gold-toned, AND UNDERSCORE */
     .highlight-l {
-      font-size: 111%;
-      font-family: 'Dancing Script';
-      /* Further reduced opacity and changed shadow color to a subtle gold */
-      text-shadow: 0 0 4px rgba(255, 215, 0, 0.3), /* Gold color, less strong glow */
-                   0 0 8px rgba(255, 215, 0, 0.15); /* Wider, softer, and very subtle gold glow */
-      /* No font-style or font-family needed here, as it's inherited and overridden by parent */
+      // border-bottom: 2px solid rgba(255, 215, 0, 0.6); /* Gold color, subtle opacity */
+      padding-bottom: 2px; /* Small padding to separate from text */
+      display: inline-block; /* Essential for border-bottom on inline elements */
     }
   </style>
 </head>
 <body class="flex items-center justify-center min-h-screen text-white text-center px-6">
   <div class="max-w-2xl w-full px-6 py-20">
     <h1 class="text-6xl sm:text-7xl font-extrabold tracking-tight mb-4 leading-tight full-title-gradient">
-      Menta<em class="highlight-l">l</em>eap
+      Mentall<span class="highlight-l"></span>eap
     </h1>
     <p class="text-base text-slate-400 italic mb-10">Reverse Engineering Intelligence</p>
-    <!-- Changed Coming Soon text color to complement the new green-to-blue gradient -->
+    <!-- Coming Soon text color to complement the new green-to-blue gradient -->
     <p class="text-2xl text-[#00c6ff] font-semibold mb-2">Coming Soon</p>
-    <footer class="text-sm text-slate-500">
-      <span>© 2025 MentaLeap</span>
-    </footer>
   </div>
 </body>
 </html>
