@@ -1,83 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MentaLeap - Reverse Engineering Intelligence</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --bg-primary: #ffffff;
-            --text-primary: #1e293b;
-            --text-secondary: #475569;
-            --text-muted: #64748b;
-            --accent-primary: #2563eb;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            background: var(--bg-primary);
-            color: var(--text-primary);
-            line-height: 1.6;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            padding: 40px 20px;
-        }
-
-        .container {
-            text-align: center;
-            max-width: 600px;
-        }
-
-        .logo {
-            font-family: 'Inter', sans-serif;
-            font-size: 4rem;
-            font-weight: 300;
-            color: var(--text-primary);
-            margin-bottom: 0px;
-            letter-spacing: -3px;
-        }
-
-        .mission {
-            font-size: 1.75rem;
-            color: var(--text-secondary);
-            font-weight: 400;
-            margin-bottom: 48px;
-        }
-
-        .coming-soon {
-            font-size: 1.125rem;
-            color: var(--text-muted);
-            font-weight: 300;
-        }
-
-        @media (max-width: 768px) {
-            .logo { font-size: 3rem; }
-            .mission { font-size: 1.5rem; }
-        }
-
-        @media (max-width: 480px) {
-            .logo { font-size: 2.5rem; }
-            .mission { font-size: 1.25rem; }
-            .coming-soon { font-size: 1rem; }
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MentaLeap | Coming Soon</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
 </head>
-<body>
-    <div class="container">
-        <h1 class="logo">MentaLeap</h1>
-        <p class="mission">Reverse Engineering Intelligence</p>
-        <p class="coming-soon">Coming Soon</p>
-    </div>
+<body class="flex items-center justify-center min-h-screen text-white text-center px-6">
+  <div class="max-w-2xl w-full px-6 py-20">
+    <h1 class="text-6xl sm:text-7xl font-extrabold tracking-tight mb-4 text-white leading-tight">MentaLeap</h1>
+    <p class="text-base text-slate-400 italic mb-10">Reverse Engineering Intelligence</p>
+    <p class="text-2xl text-indigo-400 font-semibold mb-2">Coming Soon</p>
+    <footer class="text-sm text-slate-500">
+      <span>© 2025 MentaLeap</span>
+    </footer>
+  </div>
 </body>
 </html>
