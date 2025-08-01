@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MentaLeap // Reverse Engineering Intelligence</title>
+    <title>MentaLeap // Coming Soon</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
     <style>
         :root {
             --background-color: #0d1117;
-            --primary-text-color: #c9d1d9;
-            --accent-color: #00aeff; /* Neural Network Blue */
-            --accent-glow: rgba(0, 174, 255, 0.4);
-            --border-color: rgba(0, 174, 255, 0.3);
-            --container-bg: rgba(22, 27, 34, 0.85);
+            --primary-text-color: #f1f3f5;
+            --secondary-text-color: #ced4da;
+            --accent-color: #00aaff;
+            --border-color: rgba(241, 243, 245, 0.1);
         }
 
         * {
@@ -24,7 +23,7 @@
         }
 
         body {
-            font-family: 'Rajdhani', sans-serif;
+            font-family: 'Inter', sans-serif;
             background-color: var(--background-color);
             color: var(--primary-text-color);
             display: flex;
@@ -33,90 +32,52 @@
             min-height: 100vh;
             text-align: center;
             padding: 20px;
-            overflow: hidden;
-            position: relative;
-        }
-        
-        /* Scanline effect */
-        body::after {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: repeating-linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2) 1px, transparent 1px, transparent 3px);
-            pointer-events: none;
-            z-index: 10;
         }
 
         .container {
-            max-width: 800px;
+            max-width: 700px;
             width: 100%;
-            padding: 40px 30px;
-            background: var(--container-bg);
-            border-radius: 8px;
-            border: 1px solid var(--border-color);
-            box-shadow: 0 0 30px var(--accent-glow);
-            z-index: 1;
+            padding: 30px;
         }
 
-        h1 {
-            font-size: 4rem;
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
             font-weight: 700;
-            letter-spacing: 5px;
-            text-transform: uppercase;
+            letter-spacing: -1px;
             color: var(--primary-text-color);
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.2rem;
         }
         
-        h1 .accent {
+        .logo .accent {
             color: var(--accent-color);
-            text-shadow: 0 0 10px var(--accent-glow);
-            animation: text-flicker 5s linear infinite;
         }
 
         .mission {
-            font-family: 'Roboto Mono', monospace;
-            font-size: 1.1rem;
-            margin-bottom: 2.5rem;
-            color: var(--accent-color);
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
-
-        .description {
-            font-size: 1.2rem;
-            font-weight: 500;
-            color: var(--primary-text-color);
-            margin-bottom: 2.5rem;
-            line-height: 1.7;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            font-weight: 300;
+            color: var(--secondary-text-color);
+            margin-bottom: 4rem; /* Increased margin for spacing */
         }
 
         #countdown {
             display: flex;
             justify-content: center;
-            gap: 20px;
+            gap: 25px;
             margin-bottom: 3rem;
-            font-family: 'Roboto Mono', monospace;
         }
 
         .time-block {
-            background: #010409;
-            padding: 15px;
-            border-radius: 5px;
-            min-width: 110px;
-            border: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
         }
 
         .time-block .number {
-            font-size: 3rem;
+            font-size: 2.5rem;
             font-weight: 700;
-            color: var(--accent-color);
-            text-shadow: 0 0 5px var(--accent-glow);
+            color: var(--primary-text-color);
+            line-height: 1;
         }
 
         .time-block .label {
@@ -124,125 +85,104 @@
             text-transform: uppercase;
             letter-spacing: 1px;
             margin-top: 5px;
-            color: var(--primary-text-color);
+            color: var(--secondary-text-color);
         }
 
         .access-form {
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
-            gap: 10px;
-            margin-bottom: 2.5rem;
-            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 3rem;
         }
 
         .access-form input[type="email"] {
-            font-family: 'Roboto Mono', monospace;
+            font-family: 'Inter', sans-serif;
             padding: 12px 20px;
             border-radius: 4px;
             border: 1px solid var(--border-color);
-            background: #010409;
+            background: rgba(255, 255, 255, 0.05);
             color: var(--primary-text-color);
             font-size: 1rem;
             width: 100%;
             max-width: 400px;
-            transition: border-color 0.3s, box-shadow 0.3s;
+            transition: border-color 0.3s;
         }
 
         .access-form input[type="email"]::placeholder {
-            color: var(--primary-text-color);
-            opacity: 0.5;
+            color: var(--secondary-text-color);
+            opacity: 0.6;
         }
 
         .access-form input[type="email"]:focus {
             outline: none;
             border-color: var(--accent-color);
-            box-shadow: 0 0 10px var(--accent-glow);
         }
 
         .access-form button {
-            font-family: 'Rajdhani', sans-serif;
-            font-weight: 700;
-            font-size: 1.1rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 500;
+            font-size: 1rem;
+            letter-spacing: 0.5px;
             padding: 12px 30px;
             border-radius: 4px;
-            border: 1px solid var(--accent-color);
-            background-color: var(--accent-color);
-            color: #010409;
+            border: none;
+            background-color: var(--primary-text-color);
+            color: var(--background-color);
             cursor: pointer;
-            transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+            transition: background-color 0.3s, color 0.3s;
+            width: 100%;
+            max-width: 400px;
         }
 
         .access-form button:hover {
-            background-color: transparent;
-            color: var(--accent-color);
-            box-shadow: 0 0 15px var(--accent-glow);
+            background-color: var(--accent-color);
+            color: #fff;
         }
         
-        .socials {
+        .social-icons {
             margin-top: 2rem;
-            font-family: 'Roboto Mono', monospace;
-            font-size: 0.9rem;
         }
 
         .social-icons a {
-            color: var(--primary-text-color);
+            color: var(--secondary-text-color);
             margin: 0 15px;
             text-decoration: none;
-            transition: color 0.3s, text-shadow 0.3s;
-            font-size: 1.2rem;
+            transition: color 0.3s;
+            font-size: 1.1rem;
         }
         
         .social-icons a:hover {
             color: var(--accent-color);
-            text-shadow: 0 0 8px var(--accent-glow);
         }
 
         footer {
-            margin-top: 3rem;
-            font-size: 0.9rem;
-            font-family: 'Roboto Mono', monospace;
-            color: var(--primary-text-color);
-            opacity: 0.6;
-        }
-
-        /* Animation for text flicker */
-        @keyframes text-flicker {
-            0% { opacity: 1; text-shadow: 0 0 10px var(--accent-glow); }
-            2% { opacity: 0.8; text-shadow: 0 0 8px var(--accent-glow); }
-            4% { opacity: 1; text-shadow: 0 0 10px var(--accent-glow); }
-            6% { opacity: 0.5; text-shadow: 0 0 12px var(--accent-glow); }
-            8% { opacity: 1; text-shadow: 0 0 10px var(--accent-glow); }
-            70% { opacity: 1; text-shadow: 0 0 10px var(--accent-glow); }
-            72% { opacity: 0.4; text-shadow: 0 0 8px var(--accent-glow); }
-            74% { opacity: 1; text-shadow: 0 0 10px var(--accent-glow); }
-            100% { opacity: 1; text-shadow: 0 0 10px var(--accent-glow); }
+            margin-top: 4rem;
+            font-size: 0.8rem;
+            color: var(--secondary-text-color);
+            opacity: 0.7;
         }
 
         @media (max-width: 768px) {
-            h1 { font-size: 3rem; }
-            .mission { font-size: 1rem; }
-            .description { font-size: 1rem; }
-            .time-block { min-width: 90px; }
+            .logo { font-size: 2.5rem; }
+            .mission { font-size: 1rem; margin-bottom: 3rem; }
             .time-block .number { font-size: 2rem; }
-            .access-form { flex-direction: column; }
-            .access-form input[type="email"], .access-form button { width: 100%; max-width: 400px; }
+            .access-form input[type="email"], .access-form button { max-width: none; }
         }
         
         @media (max-width: 480px) {
-            h1 { font-size: 2.2rem; }
-            .time-block { min-width: 70px; padding: 10px; }
+            .logo { font-size: 2rem; }
+            #countdown { gap: 15px; }
             .time-block .number { font-size: 1.5rem; }
+            .access-form button { padding: 10px 20px; }
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1>Menta<span class="accent">Leap</span></h1>
-        <p class="mission">// reverse engineering intelligence</p>
+        <h1 class="logo">Menta<span class="accent">Leap</span></h1>
+        <p class="mission">Reverse Engineering Intelligence</p>
 
         <div id="countdown">
             <div class="time-block">
@@ -263,24 +203,19 @@
             </div>
         </div>
 
-        <p class="description">We are mapping the core architecture of cognition. The final diagnostic is running. When the countdown completes, the source code of thought will be revealed.</p>
-
         <form class="access-form" action="#" method="post">
-            <input type="email" name="email" placeholder="> Enter email to witness the leap" required>
+            <input type="email" name="email" placeholder="Enter your email to join the waitlist" required>
             <button type="submit">Join Waitlist</button>
         </form>
 
-        <div class="socials">
-            <p>// Monitor Comms:</p>
-            <div class="social-icons">
-                <a href="#">[LinkedIn]</a>
-                <a href="#">[X/Twitter]</a>
-                <a href="#">[GitHub]</a>
-            </div>
+        <div class="social-icons">
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+            <a href="#">GitHub</a>
         </div>
 
         <footer>
-            <p>// MentaLeap Dynamics &copy; 2025 // Cognition Protocol v1.0 //</p>
+            <p>&copy; 2025 MentaLeap. All Rights Reserved.</p>
         </footer>
     </div>
 
@@ -307,10 +242,10 @@
 
             if (distance < 0) {
                 clearInterval(countdownInterval);
-                document.querySelector(".mission").innerText = "// COGNITION PROTOCOL: ONLINE //";
-                document.getElementById("countdown").innerHTML = "<h1>REVELATION</h1>";
-                document.querySelector(".description").style.display = "none";
+                document.querySelector(".mission").innerText = "MentaLeap is Now Live!";
+                document.getElementById("countdown").innerHTML = "<p>Visit our website to learn more.</p>";
                 document.querySelector(".access-form").style.display = "none";
+                document.querySelector(".social-icons").style.display = "none";
             }
         }, 1000);
     </script>
