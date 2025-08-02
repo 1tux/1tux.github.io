@@ -13,10 +13,11 @@
     body {
       background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
       font-family: 'Inter', sans-serif; /* Default font for body text */
+      font-weight: 100; /* Set to thin weight */
     }
     /* Overall gradient for the entire title - Green to Blue! */
     .full-title-gradient {
-      background: linear-gradient(to right, #00ff80, #007bff); /* Bright Green to Vibrant Blue */
+      background: linear-gradient(to right, #00ee80, #009bee); /* Bright Green to Vibrant Blue */
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -25,19 +26,17 @@
       font-weight: 50; /* Set to thin weight */
       font-stretch: condensed;
     }
-    /* Highlight for the 'l' using text-shadow, less shiny and gold-toned, AND UNDERSCORE */
-    .highlight-l {
-      // border-bottom: 2px solid rgba(255, 215, 0, 0.6); /* Gold color, subtle opacity */
-      //padding-bottom: 2px; /* Small padding to separate from text */
-      //display: inline-block; /* Essential for border-bottom on inline elements */
-      font-size: 110%;
+    .highlight {
+      font-weight: 1; /* Set to thin weight */
+      font-family: '';
+      font-size: 125%;
     }
   </style>
 </head>
 <body class="flex items-center justify-center min-h-screen text-white text-center px-6">
   <div class="max-w-2xl w-full px-6 py-20">
     <h1 class="text-6xl sm:text-7xl font-extrabold tracking-tight mb-4 leading-tight full-title-gradient">
-      menta<span class="highlight-l">l</span>eap
+      menta<em class="highlight">l</em>eap
     </h1>
     <p class="text-base text-slate-400 italic mb-10">Reverse Engineering Intelligence</p>
     <!-- Coming Soon text color to complement the new green-to-blue gradient -->
